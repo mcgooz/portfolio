@@ -54,7 +54,7 @@ body {
 }
 
 .v-scroller {
-  max-height: 80vh;
+  max-height: 60vh;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;

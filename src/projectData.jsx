@@ -9,9 +9,9 @@ const projectData = [
       "A Python app that uses Tkinter for the GUI and retrieves live price data via the Binance API.", 
       "It allows you to convert between euros and a selection of popular cryptocurrencies."],
     screenshots: [
-      "/assets/images/cryptoconv1.png",
+      "assets/images/cryptoconv1.png",
     ],
-    featuredImage: "/assets/images/cryptoconv1.png",
+    featuredImage: "assets/images/cryptoconv1.png",
   },
   {
     id: 1,
@@ -24,9 +24,9 @@ const projectData = [
       "Enter your team ID to get the latest team info."
     ],
     screenshots: [
-      "/assets/images/footy1.png",
+      "assets/images/footy1.png",
     ],
-    featuredImage: "/assets/images/footy1.png",
+    featuredImage: "assets/images/footy1.png",
   },
   {
     id: 2,
@@ -41,9 +41,9 @@ const projectData = [
       
     ],
     screenshots: [
-      "/assets/images/eng-cat1.png",
+      "assets/images/eng-cat1.png",
     ],
-    featuredImage: "/assets/images/eng-cat1.png",
+    featuredImage: "assets/images/eng-cat1.png",
   },
   {
     id: 3,
@@ -58,10 +58,10 @@ const projectData = [
       "Sadly, in November 2024, Spotify deprecated many of the API endpoints, thus removing a lot of functionality."
     ],
     screenshots: [ 
-      "/assets/images/audiodive1.png",
-      "/assets/images/audiodive2.png",
+      "assets/images/audiodive1.png",
+      "assets/images/audiodive2.png",
     ],
-    featuredImage: "/assets/images/audiodive2.png",
+    featuredImage: "assets/images/audiodive2.png",
   },
   {
     id: 4,
@@ -76,12 +76,12 @@ const projectData = [
     ],
     
     screenshots: [ 
-      "/assets/images/souschef1.png",
-      "/assets/images/souschef2.png",
-      "/assets/images/souschef3.png",
-      "/assets/images/souschef4.png",
+      "assets/images/souschef1.png",
+      "assets/images/souschef2.png",
+      "assets/images/souschef3.png",
+      "assets/images/souschef4.png",
     ],
-    featuredImage: "/assets/images/souschef1.png",
+    featuredImage: "assets/images/souschef1.png",
   },
   {
     id: 5,
@@ -95,13 +95,13 @@ const projectData = [
       "Boasts a dynamic, responsive UI and a bespoke, clean and minimalist design."
     ],
     screenshots: [
-      "/assets/images/soilife1.png",
-      "/assets/images/soilife2.png",
-      "/assets/images/soilife3.png",
-      "/assets/images/soilife4.png",
-      "/assets/images/soilife5.png",
+      "assets/images/soilife1.png",
+      "assets/images/soilife2.png",
+      "assets/images/soilife3.png",
+      "assets/images/soilife4.png",
+      "assets/images/soilife5.png",
     ],
-    featuredImage: "/assets/images/soilife1.png",
+    featuredImage: "assets/images/soilife1.png",
   },
 ];
 
