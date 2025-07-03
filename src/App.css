@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-myblue-500: #8fbee8;
+  --color-mygreen: #c5e5de;
+  --color-mywhite: #f5f5f5;
+}
+
+@font-face {
+  font-family: 'mazzardsoftm-light';
+  src: url('./assets/fonts/mazzardsoftm-light-webfont.woff2') format('woff2'),
+      url('./assets/fonts/mazzardsoftm-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes fall {
+  0% {
+    top: -10%;
+    opacity: 0.5;
+  }
+  100% {
+    top: 110%;
+    opacity: 0.5;
+  }
+}
+
+.animate-fall {
+  position: absolute;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+
+body {
+  font-family: 'mazzardsoftm-light', sans-serif;
+  background-color: rgb(143, 190, 232);
+  color: rgb(245, 245, 245);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.h-scroller {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  margin-top: 10px;
+  padding-inline: 10px;
+}
+
+.v-scroller {
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin-top: 10px;
+  padding: 10px;
+}
