@@ -20,7 +20,7 @@ export default function AboutMe({ show, onClose }) {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-0 text-[0.9rem] mt-6 v-scroller">
                     <div className="col-span-2">
                         <h2 className="text-xl mb-1">About Me</h2>
-                        <p>Hi, I'm Richard Hughes, a software developer based in Barcelona.</p>
+                        <p>Hi, I'm Richard, a software developer based in Barcelona.</p>
                         <br />
                         <p>
                             I have always been a curious, hands-on, problem-solving type. When the family PC went wrong, I would take pleasure in troubleshooting it, trying to understand those cryptic blue-screen messages. 
@@ -34,9 +34,9 @@ export default function AboutMe({ show, onClose }) {
                         </p>
                         <br />
                         <p>
-                            But it's not just what's under the hood that matters. 
-                            I have a keen eye for detail, a (subjectively) cool style, and the adaptability to listen, consider and learn whatever's needed. 
-                            I'm as comfortable diving into code as I am thinking about the overall look, feel, and flow of a project.
+                            And it's not just what's under the hood that matters to me.
+                            I have a keen eye for detail, a (subjectively) cool style, and I place a lot of importance on the visual aspect of any project. 
+                            I'm as comfortable diving into code as I am perfecting the overall look, feel, and flow.
                         </p>
                         <br />
                         <p>

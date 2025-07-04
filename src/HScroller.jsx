@@ -37,7 +37,7 @@ export default function HScroller({ children, className }) {
             {/* Progress Bar */}
             <div className="relative w-full h-2 bg-mywhite rounded overflow-hidden mb-2">
                 <div
-                    className="absolute top-0 left-0 h-2 bg-myblue-500 rounded transition-transform duration-200 ease-out"
+                    className="absolute top-0 left-0 h-2 bg-myblue-500 transition-transform duration-200 ease-out"
                     style={{ width: '20px', transform: `translateX(${indicatorPosition}px)`}}
                 />
             </div>

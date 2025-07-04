@@ -9,9 +9,9 @@ const projectData = [
       "A Python app that uses Tkinter for the GUI and retrieves live price data via the Binance API.", 
       "It allows you to convert between euros and a selection of popular cryptocurrencies."],
     screenshots: [
-      "assets/images/cryptoconv1.png",
+      "assets/images/cryptoconv1.jpeg",
     ],
-    featuredImage: "assets/images/cryptoconv1.png",
+    featuredImage: "assets/images/cryptoconv1.jpeg",
   },
   {
     id: 1,
@@ -21,29 +21,29 @@ const projectData = [
     description: "Check your EPL fantasy football score",
     details: [
       "Another little Python app that uses Tkinter for the GUI and gets live data via the official FPL API.",
-      "Enter your team ID to get the latest team info."
+      "Enter a team ID to get the latest team info, such as rank, score and team value."
     ],
     screenshots: [
-      "assets/images/footy1.png",
+      "assets/images/footy1.jpeg",
     ],
-    featuredImage: "assets/images/footy1.png",
+    featuredImage: "assets/images/footy1.jpeg",
   },
   {
     id: 2,
-    title: "English <-> Catalan Translator",
+    title: "English - Catalan Translator",
     link: "https://github.com/mcgooz/eng_cat_translator",
     linkText: "View on Github",
     description: "A basic English-Catalan translator",
     details: [
-      "Built with Python and Tkinter for the GUI.",
+      "Built with Python, Tkinter for the GUI.",
       "It makes use of the DACCO ('Diccionari Obert Català de Codi Obert') XML database.",
       "Search for a word in English or Catalan to see the translation."
       
     ],
     screenshots: [
-      "assets/images/eng-cat1.png",
+      "assets/images/eng-cat1.jpeg",
     ],
-    featuredImage: "assets/images/eng-cat1.png",
+    featuredImage: "assets/images/eng-cat1.jpeg",
   },
   {
     id: 3,
@@ -54,14 +54,14 @@ const projectData = [
     details: [
       "Built with Python/Flask, JavaScript, HTML & CSS and gets data from the Spotify API via the Spotipy library.", 
       "Audiodive (in its original form) showed hidden stats like popularity, key and tempo. You could also search for similar or random tracks.",
-      "Additionally, it used the numerical values for 'valence', 'energy', 'danceability' and 'tempo' to create a (almost) unique shifting background for each track.",
-      "Sadly, in November 2024, Spotify deprecated many of the API endpoints, thus removing a lot of functionality."
+      "Additionally, it used the numerical values for 'valence', 'energy', 'danceability' and 'tempo' to create a shifting, colourful background for each track.",
+      "Sadly, in November 2024, Spotify deprecated many of the API endpoints, thus removing a lot of the original functionality."
     ],
     screenshots: [ 
-      "assets/images/audiodive1.png",
-      "assets/images/audiodive2.png",
+      "assets/images/audiodive1.jpeg",
+      "assets/images/audiodive2.jpeg",
     ],
-    featuredImage: "assets/images/audiodive2.png",
+    featuredImage: "assets/images/audiodive2.jpeg",
   },
   {
     id: 4,
@@ -71,17 +71,17 @@ const projectData = [
     linkText: "View on Github",
     details: [
       "Built with Python/Django, JavaScript, HTML & CSS and retrieves data from the Spoonacular API.",
-      "With a clean, minimalist layout and a fully responsive design, SousChef lets users create their own recipes, browse those of others, and add recipes to their favourites.",
-      "With the Spoonacular API, users can search a large database of ingredients and view the corresponding nutritional information."
+      "With a clean, minimalist layout and a fully responsive design, SousChef lets users create recipes, browse those of others, and keep a list of favourites.",
+      "Via the Spoonacular API, users can search a large database of ingredients and view the corresponding nutritional information."
     ],
     
     screenshots: [ 
-      "assets/images/souschef1.png",
-      "assets/images/souschef2.png",
-      "assets/images/souschef3.png",
-      "assets/images/souschef4.png",
+      "assets/images/souschef1.jpeg",
+      "assets/images/souschef2.jpeg",
+      "assets/images/souschef3.jpeg",
+      "assets/images/souschef4.jpeg",
     ],
-    featuredImage: "assets/images/souschef1.png",
+    featuredImage: "assets/images/souschef1.jpeg",
   },
   {
     id: 5,
@@ -95,13 +95,13 @@ const projectData = [
       "Boasts a dynamic, responsive UI and a bespoke, clean and minimalist design."
     ],
     screenshots: [
-      "assets/images/soilife1.png",
-      "assets/images/soilife2.png",
-      "assets/images/soilife3.png",
-      "assets/images/soilife4.png",
-      "assets/images/soilife5.png",
+      "assets/images/soilife1.jpeg",
+      "assets/images/soilife2.jpeg",
+      "assets/images/soilife3.jpeg",
+      "assets/images/soilife4.jpeg",
+      "assets/images/soilife5.jpeg",
     ],
-    featuredImage: "assets/images/soilife1.png",
+    featuredImage: "assets/images/soilife1.jpeg",
   },
 ];
 

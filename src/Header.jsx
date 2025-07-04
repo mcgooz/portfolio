@@ -17,7 +17,7 @@ export default function Header() {
                 <img className='w-5 object-contain' src='assets/github-mark.png'/>
                 </a>
                 <a href='https://www.linkedin.com/in/richard-h-410696123/' target="_blank" rel="noopener noreferrer">
-                <img className='w-5 object-contain' src='assets/LI-In-Bug.png'/>
+                <img className='w-5 object-contain' src='assets/InBug-Black.png'/>
                 </a>
             </div>
                 <p className='text-[0.8rem] me-1'>

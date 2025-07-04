@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-myblue-500: #8fbee8;
+  --color-myblue-500: #2675BA;
   --color-mygreen: #c5e5de;
-  --color-mywhite: #f5f5f5;
+  --color-mywhite: #f7f7f7;
 }
 
 @font-face {
@@ -32,12 +32,10 @@
   animation-iteration-count: infinite;
 }
 
-
-
 body {
   font-family: 'mazzardsoftm-light', sans-serif;
-  background-color: rgb(143, 190, 232);
-  color: rgb(245, 245, 245);
+  background-color: #2675BA;
+  color: #F7F7F7;
 }
 
 ::-webkit-scrollbar {
@@ -51,14 +49,15 @@ body {
   width: 100%;
   margin-top: 10px;
   padding-inline: 10px;
+  padding-bottom: 10px;
 }
 
 .v-scroller {
-  max-height: 70vh;
+  max-height: 75vh;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  margin-top: 10px;
+  margin-block: 1px;
   padding: 10px;
 }

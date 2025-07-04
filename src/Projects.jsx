@@ -1,12 +1,12 @@
 export default function Projects({title, featuredImage, onClick}) {
     return (
-        <div className="flex-shrink-0 max-w-4xl w-full relative group cursor-pointer text-center mt-2 me-3"
+        <div className="flex-shrink-0 max-w-4xl w-full relative group transition-transform duration-1500 hover:scale-101 cursor-pointer text-center mt-2 me-3"
             onClick={onClick}
         >
             <img 
                 src={featuredImage}
                 alt={title}
-                className="rounded-lg group-hover:shadow-md group-hover:blur-[3px] transition duration-1500 ease-in-out"
+                className="rounded-md group-hover:shadow-sm group-hover:blur-[2px] transition duration-1500 ease-in-out"
             />
             <h3 
                 className="
