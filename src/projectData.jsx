@@ -110,7 +110,7 @@ const projectData = [
     linkText: "Visit the website",
     description: "My humble record label's website",
     details: [
-      "Made with React, using the Motion library for advanved animations.",
+      "Made with React, Tailwind CSS, and the Motion library for advanced animations.",
       "A straightforward website that shows off my eye for detail and versatility in design.",
     ],
     screenshots: [
