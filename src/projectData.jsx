@@ -103,6 +103,23 @@ const projectData = [
     ],
     featuredImage: "assets/images/soilife1.jpeg",
   },
+  {
+    id: 6,
+    title: "Orbit Axis Spin",
+    link: "https://orbitaxisspin.onrender.com/",
+    linkText: "Visit the website",
+    description: "My humble record label's website",
+    details: [
+      "Made with React, using the Motion library for advanved animations.",
+      "A straightforward website that shows off my eye for detail and versatility in design.",
+    ],
+    screenshots: [
+      "assets/images/OAS1.jpeg",
+      "assets/images/OAS2.jpeg",
+      "assets/images/OAS3.jpeg",
+    ],
+    featuredImage: "assets/images/OAS1.jpeg",
+  },
 ];
 
 export default projectData;
