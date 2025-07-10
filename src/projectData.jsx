@@ -111,7 +111,7 @@ const projectData = [
     description: "My humble record label's website",
     details: [
       "Made with React, Tailwind CSS, and the Motion library for advanced animations.",
-      "A straightforward website that shows off my eye for detail and versatility in design.",
+      "A straightforward website that shows off my eye for detail and versatility in design (and my music).",
     ],
     screenshots: [
       "assets/images/OAS1.jpeg",
