@@ -120,6 +120,23 @@ const projectData = [
     ],
     featuredImage: "assets/images/OAS1.jpeg",
   },
+  {
+    id: 7,
+    title: "Royalties Dashboard",
+    link: "https://royalties-dashboard.streamlit.app/",
+    linkText: "Visit the website",
+    description: "A tool to anaylse and visualise royalty reports",
+    details: [
+      "Built with Python and the Streamlit library.",
+      "An easy to use app that helps break down the many rows of data in the Symphonic royalty reports.",
+    ],
+    screenshots: [
+      "assets/images/rd1.jpg",
+      "assets/images/rd2.jpg",
+      "assets/images/rd3.jpg",
+    ],
+    featuredImage: "assets/images/rd1.jpg",
+  },
 ];
 
 export default projectData;
