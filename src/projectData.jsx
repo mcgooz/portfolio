@@ -129,7 +129,7 @@ const ProjectData = [
     details: [
       "Built with Python and the Streamlit library.",
       "An easy-to-use app that helps break down the many rows of data in the Symphonic Distribution royalty reports.",
-      "You can filter by artist and/or reporting period and then, for each track, view data for DSPs and countries"
+      "You can filter by artist and/or reporting period and then, for each track, view data for DSPs and countries."
     ],
     screenshots: [
       "assets/images/rd1.jpg",
