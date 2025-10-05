@@ -1,6 +1,6 @@
 import Projects from "./Projects";
 import HScroller from "./HScroller";
-import projectData from './projectData';
+import ProjectData from './ProjectData';
 import React, { useState } from "react";
 
 
@@ -12,7 +12,7 @@ export default function ProjectList() {
             {/* Horizontal Scroller for large/medium screens */}
             <div className="hidden lg:flex">
                 <HScroller className="h-scroller">
-                    {[...projectData].reverse().map((project => (
+                    {[...ProjectData].reverse().map((project => (
                         <Projects
                             key={project.id}
                             featuredImage={project.featuredImage}
@@ -29,7 +29,7 @@ export default function ProjectList() {
             {/* Vertical scroll for small screens */}
             <div className="flex flex-col space-y-4 lg:hidden">                
                 <div className="v-scroller">
-                    {[...projectData].reverse().map((project => (
+                    {[...ProjectData].reverse().map((project => (
                         <Projects
                             key={project.id}
                             featuredImage={project.featuredImage}

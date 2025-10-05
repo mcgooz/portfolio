@@ -1,4 +1,4 @@
-const projectData = [
+const ProjectData = [
   {
     id: 0,
     title: "Crypto Converter",
@@ -128,7 +128,8 @@ const projectData = [
     description: "A tool to anaylse and visualise royalty reports",
     details: [
       "Built with Python and the Streamlit library.",
-      "An easy to use app that helps break down the many rows of data in the Symphonic royalty reports.",
+      "An easy-to-use app that helps break down the many rows of data in the Symphonic Distribution royalty reports.",
+      "You can filter by artist and/or reporting period and then, for each track, view data for DSPs and countries"
     ],
     screenshots: [
       "assets/images/rd1.jpg",
@@ -139,4 +140,4 @@ const projectData = [
   },
 ];
 
-export default projectData;
+export default ProjectData;
