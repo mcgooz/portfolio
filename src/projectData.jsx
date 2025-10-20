@@ -86,13 +86,15 @@ const ProjectData = [
   {
     id: 5,
     title: "Soil Life UK",
-    link: "",
-    linkText: "Coming Soon",
+    link: "https://www.soil-lifeuk.com/",
+    linkText: "Visit the website",
     description: "A small business website and store",
     details: [
-      "Built with Python/Django, JavaScript, HTML & CSS and implements secure payments via the Stripe API.",
-      "Includes user accounts with authentication, email verification and secure password reset.",
-      "Boasts a dynamic, responsive UI and a bespoke, clean and minimalist design."
+      "Built with Python/Django, JavaScript, HTML & CSS, Bootstrap and implements secure payments via the Stripe API.",
+      "Features user accounts with authentication, email verification and secure password reset.",
+      "Boasts a dynamic, responsive UI and a bespoke, clean and minimalist design.",
+      "Includes an advanced admin panel for managing orders, results, and site content with a customised UI via the Jazzmin library.",
+      "Powered by a Postgres Database and S3 storage via Supabase for media files and customer test results. Deployed securely on Digital Ocean.",
     ],
     screenshots: [
       "assets/images/soilife1.jpeg",
