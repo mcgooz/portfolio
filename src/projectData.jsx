@@ -140,6 +140,21 @@ const ProjectData = [
     ],
     featuredImage: "assets/images/rd1.jpg",
   },
+  {
+    id: 8,
+    title: "Richard Hughes Music",
+    link: "https://richardhughes.onrender.com/",
+    linkText: "Visit the website",
+    description: "A website to showcase my various musical endeavours.",
+    details: [
+      "Built with React and Tailwind CSS.",
+    ],
+    screenshots: [
+      "assets/images/rhmus1.jpg",
+      "assets/images/rhmus2.jpg",
+    ],
+    featuredImage: "assets/images/rhmus1.jpg",
+  },
 ];
 
 export default ProjectData;
