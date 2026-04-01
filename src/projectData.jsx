@@ -85,6 +85,38 @@ const ProjectData = [
   },
   {
     id: 5,
+    title: "Richard Hughes Music",
+    link: "https://richardhughes.onrender.com/",
+    linkText: "Visit the website",
+    description: "A website to showcase my various musical endeavours.",
+    details: [
+      "Built with React and Tailwind CSS.",
+    ],
+    screenshots: [
+      "assets/images/rhmus1.jpg",
+      "assets/images/rhmus2.jpg",
+    ],
+    featuredImage: "assets/images/rhmus1.jpg",
+  },
+  {
+    id: 6,
+    title: "Orbit Axis Spin",
+    link: "https://orbitaxisspin.onrender.com/",
+    linkText: "Visit the website",
+    description: "My humble record label's website",
+    details: [
+      "Made with React, Tailwind CSS, and the Motion library for advanced animations.",
+      "A straightforward website that shows off my eye for detail and versatility in design (and my music).",
+    ],
+    screenshots: [
+      "assets/images/OAS1.jpeg",
+      "assets/images/OAS2.jpeg",
+      "assets/images/OAS3.jpeg",
+    ],
+    featuredImage: "assets/images/OAS1.jpeg",
+  },
+  {
+    id: 7,
     title: "Soil Care UK",
     link: "https://www.soil-careuk.com/",
     linkText: "Visit the website",
@@ -106,24 +138,7 @@ const ProjectData = [
     featuredImage: "assets/images/soilife1.jpg",
   },
   {
-    id: 6,
-    title: "Orbit Axis Spin",
-    link: "https://orbitaxisspin.onrender.com/",
-    linkText: "Visit the website",
-    description: "My humble record label's website",
-    details: [
-      "Made with React, Tailwind CSS, and the Motion library for advanced animations.",
-      "A straightforward website that shows off my eye for detail and versatility in design (and my music).",
-    ],
-    screenshots: [
-      "assets/images/OAS1.jpeg",
-      "assets/images/OAS2.jpeg",
-      "assets/images/OAS3.jpeg",
-    ],
-    featuredImage: "assets/images/OAS1.jpeg",
-  },
-  {
-    id: 7,
+    id: 8,
     title: "Royalties Dashboard",
     link: "https://royalties-dashboard.streamlit.app/",
     linkText: "Visit the website",
@@ -140,21 +155,8 @@ const ProjectData = [
     ],
     featuredImage: "assets/images/rd1.jpg",
   },
-  {
-    id: 8,
-    title: "Richard Hughes Music",
-    link: "https://richardhughes.onrender.com/",
-    linkText: "Visit the website",
-    description: "A website to showcase my various musical endeavours.",
-    details: [
-      "Built with React and Tailwind CSS.",
-    ],
-    screenshots: [
-      "assets/images/rhmus1.jpg",
-      "assets/images/rhmus2.jpg",
-    ],
-    featuredImage: "assets/images/rhmus1.jpg",
-  },
+
+
 ];
 
 export default ProjectData;
