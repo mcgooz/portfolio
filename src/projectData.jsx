@@ -47,6 +47,25 @@ const ProjectData = [
   },
   {
     id: 3,
+    title: "Todo List | Lista de Tareas",
+    link: "https://github.com/mcgooz/lista_de_tareas",
+    linkText: "View on Github",
+    description: "A terminal-based app for keeping track of tasks",
+    details: [
+      "Built with Python using OOP principles.",
+      "Tabulate library for a clean, readable UI.",
+      "Enum-based result system: every operation returns a semantic code.",
+      "Uses JSON for data persistence so that tasks are saved between sessions."
+    ],
+    screenshots: [
+      "assets/images/lista_tarea1.jpg",
+      "assets/images/lista_tarea2.jpg",
+      "assets/images/lista_tarea3.jpg",
+    ],
+    featuredImage: "assets/images/lista_tarea3.jpg",
+  },
+  {
+    id: 4,
     title: "Audiodive",
     link: "https://github.com/mcgooz/Audiodive",
     linkText: "View on Github",
@@ -64,7 +83,7 @@ const ProjectData = [
     featuredImage: "assets/images/audiodive2.jpeg",
   },
   {
-    id: 4,
+    id: 5,
     title: "SousChef",
     description: "My Final Project for CS50W: A digital recipe book",
     link: "https://github.com/mcgooz/SousChef",
@@ -84,7 +103,7 @@ const ProjectData = [
     featuredImage: "assets/images/souschef1.jpeg",
   },
   {
-    id: 5,
+    id: 6,
     title: "Richard Hughes Music",
     link: "https://richardhughes.onrender.com/",
     linkText: "Visit the website",
@@ -99,7 +118,7 @@ const ProjectData = [
     featuredImage: "assets/images/rhmus1.jpg",
   },
   {
-    id: 6,
+    id: 7,
     title: "Orbit Axis Spin",
     link: "https://orbitaxisspin.onrender.com/",
     linkText: "Visit the website",
@@ -116,7 +135,7 @@ const ProjectData = [
     featuredImage: "assets/images/OAS1.jpeg",
   },
   {
-    id: 7,
+    id: 8,
     title: "Soil Care UK",
     link: "https://www.soil-careuk.com/",
     linkText: "Visit the website",
@@ -125,7 +144,6 @@ const ProjectData = [
       "Built with Python/Django, JavaScript, HTML & CSS, Bootstrap and implements secure payments via the Stripe API.",
       "Features user accounts with authentication, email verification and secure password reset.",
       "Boasts a dynamic, responsive UI and a custom, clean and minimalist design.",
-      "Includes an advanced admin panel, with a customised UI via the Jazzmin library, for managing orders, test results, and site content.",
       "Powered by a Postgres database and S3 storage via Supabase. Deployed securely on Digital Ocean.",
     ],
     screenshots: [
@@ -138,7 +156,7 @@ const ProjectData = [
     featuredImage: "assets/images/soilife1.jpg",
   },
   {
-    id: 8,
+    id: 9,
     title: "Royalties Dashboard",
     link: "https://royalties-dashboard.streamlit.app/",
     linkText: "Visit the website",
