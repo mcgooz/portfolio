@@ -23,25 +23,25 @@ export default function AboutMe({ show, onClose }) {
                         <p>Hi, I'm Richard, a software developer based in Barcelona.</p>
                         <br />
                         <p>
-                            I have always been a curious, hands-on, problem-solving type. When the family PC went wrong, I would take pleasure in troubleshooting it, trying to understand those cryptic blue-screen messages. 
-                            Later, when I built my own PCs for music production, I would gladly spend countless hours solving driver issues, hunting down dodgy plug-ins, and optimising everything I could. 
-                            Fortunately, even Windows PCs are a lot more stable these days so I can focus on the fun stuff!
+                            I've always been drawn to problem-solving and understanding how systems work. 
+                            That curiosity started early through troubleshooting computers and building my own PCs for music production, 
+                            where I spent a lot of time resolving hardware and software issues and optimising performance.
+
                         </p>
                         <br />
                         <p>
-                            I began my coding journey in November 2023. A friend, well-aware of my technical mindset and apparent knack for human languages, suggested that I give it a go, that I might enjoy it. 
-                            They weren't wrong! I caught the bug and I have since completed three Harvard CS50 courses, an IBM full-stack diploma, several personal projects, and I've tried my hardest to write good unit tests.
+                            I began learning to code in 2023 after a friend suggested it might suit my way of thinking.
+                            Since then, I've completed several Harvard CS50 courses, an IBM full-stack diploma, and built multiple projects, with a focus on writing clean, maintainable code.
                         </p>
                         <br />
                         <p>
-                            And it's not just what's under the hood that matters to me.
-                            I have a keen eye for detail, a (subjectively) cool style, and I place a lot of importance on the visual aspect of any project. 
-                            I'm as comfortable diving into code as I am perfecting the overall look, feel, and flow.
+                            Alongside the technical side, I care about how software feels to use. 
+                            I enjoy refining UI, improving flow, and making applications feel clear and intuitive.
                         </p>
                         <br />
                         <p>
-                            Today, I'm skilled in Python and JavaScript, along with their key libraries and frameworks. 
-                            I enjoy building practical, well-structured solutions and am always looking to improve my craft and the projects I work on.
+                            Today, I work with Python and JavaScript, along with their main frameworks and tools. 
+                            I enjoy building practical applications, working through technical problems, and improving existing systems as well as new ones.
                         </p>
                     </div>
                     <div className="col-span-1 justify-items-end mt-3">
@@ -50,7 +50,7 @@ export default function AboutMe({ show, onClose }) {
                             <li>Python | JavaScript | HTML & CSS</li>
                             <li>Django | Flask | React | Node.js</li>
                             <li>Bootstrap | Tailwind CSS</li>
-                            <li>SQLite | PostgreSQL | Redis</li>
+                            <li>SQLite | PostgreSQL | MongoDB</li>
                         </ul>
                     </div>
                 </div>
